@@ -7,8 +7,8 @@ end
 
 def list_dwarves(array)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
-dwarves.each_with_index do |index, dwarves|
- dwarves 
+dwarves.each_with_index do |item, index|
+ dwarves[item] = index 
 end
 
  
